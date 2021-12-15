@@ -1,0 +1,60 @@
+@keyframes animate-menu-2 {
+    from {
+        opacity: 0;
+        transform: rotateY(-90deg) translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateY(0deg) translateY(0px);
+    }
+}
+
+li:hover > ul.drop-menu.menu-2 {
+    perspective: 1000px;
+}
+
+li:hover > ul.drop-menu.menu-2 li:nth-child(1) {
+    opacity: 0;
+
+    animation-name: animate-menu-2;
+    animation-duration: .3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+li:hover > ul.drop-menu.menu-2 li:nth-child(2) {
+    opacity: 0;
+
+    animation-name: animate-menu-2;
+    animation-duration: .6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+li:hover > ul.drop-menu.menu-2 li:nth-child(3) {
+    opacity: 0;
+
+    animation-name: animate-menu-2;
+    animation-duration: .9s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+li:hover > ul.drop-menu.menu-2 li:nth-child(4) {
+    opacity: 0;
+
+    animation-name: animate-menu-2;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+li:hover > ul.drop-menu.menu-2 li:nth-child(5) {
+    opacity: 0;
+
+    animation-name: animate-menu-2;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}

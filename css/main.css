@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body {
+    font-family: 'Bree Serif', serif;
+}
+
+nav {
+    padding: 50px;
+    text-align: center;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: #F4837D;
+    border-radius: 5px;
+}
+
+nav > ul > li {
+    float: left;
+    width: 150px;
+    height: 65px;
+    line-height: 65px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #c00a00;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav > ul > li:hover {
+    background: #fda7a2;
+    /* border-radius: 5px; */
+}
+
+ul.drop-menu {
+    /* position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%; */
+    padding: 0;
+}
+
+ul.drop-menu li {
+    background: #F4837D;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+ul.drop-menu li:hover {
+    background: #bb0900;
+}
+
+ul.drop-menu li:last-child {
+    border-radius: 0px 0px 5px 5px;
+}
+
+ul.drop-menu li {
+    display: none;
+}
+
+li:hover > ul.drop-menu li {
+    display: block;
+}

@@ -1,0 +1,65 @@
+@keyframes animate-menu-7 {
+    0% {
+        opacity: 0;
+        transform: rotate(-30deg) translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(0deg) translateX(0px);
+    }
+}
+
+li:hover > ul.drop-menu.menu-7 {
+    perspective: 1000px;
+}
+
+li:hover > ul.drop-menu.menu-7 li:nth-child(1) {
+    opacity: 0;
+    transform-origin: top right;
+
+    animation-name: animate-menu-7;
+    animation-duration: .3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+li:hover > ul.drop-menu.menu-7 li:nth-child(2) {
+    opacity: 0;
+    transform-origin: top right;
+
+    animation-name: animate-menu-7;
+    animation-duration: .6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+li:hover > ul.drop-menu.menu-7 li:nth-child(3) {
+    opacity: 0;
+    transform-origin: top right;
+
+    animation-name: animate-menu-7;
+    animation-duration: .9s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+li:hover > ul.drop-menu.menu-7 li:nth-child(4) {
+    opacity: 0;
+    transform-origin: top right;
+
+    animation-name: animate-menu-7;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+li:hover > ul.drop-menu.menu-7 li:nth-child(5) {
+    opacity: 0;
+    transform-origin: top right;
+
+    animation-name: animate-menu-7;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
